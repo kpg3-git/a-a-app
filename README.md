@@ -29,9 +29,6 @@
 - **Get Me/current user using Token:** https://a-a-app.onrender.com/api/auth/me 
 ![Single Screenshot](./after_deploy_ss/3.Me%20user%20using%20Token%20from%20Login.png)
 
-- **Get All Users using Token:** https://a-a-app.onrender.com/api/auth/users 
-![All user Screenshot](./after_deploy_ss/4.All%20Users%20Using%20Token%20from%20Login.png)
-
 - **Fully Update User (PUT):** https://a-a-app.onrender.com/api/auth/update  
 ![Full Update Screenshot](./after_deploy_ss/5.Fully-updating%20User%20using%20Toke%20from%20Login.png)
 
@@ -59,9 +56,6 @@
 ### Logged In - GET
 ![Logged In Screenshot](./ss/3.%20Logged%20In%20(me).png)
 
-### All users - GET
-![All users Screenshot](./ss/4.All%20Users.png)
-
 ### Reset password or Forget password - POST
 ![Reset password Screenshot](./ss/5.%20Reset%20pwd.png)
 
@@ -88,7 +82,7 @@
 - Returned token to user.
 - Created **JWT verification middleware**
 - Decoded token and attached user info to request.
-- Created **protected route to get user info (SINGLE USER)**
+- Created **protected route to get user info**
 - Used middleware to protect route.
 - Returned user details from token.
 - Added **detailed Postman documentation**.

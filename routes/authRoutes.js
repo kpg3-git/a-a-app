@@ -3,7 +3,6 @@ import {
   registerUser,
   loginUser,
   getMe,
-  getAllUsers,
   updateUser,
   partialUpdateUser,
   deleteUser,
@@ -21,7 +20,6 @@ router.post("/reset-password", resetPassword);
 
 // PROTECTED ROUTES 
 router.get("/me", verifyToken, getMe);
-router.get("/users", verifyToken, getAllUsers);
 router.put("/update", verifyToken, updateUser);
 router.patch("/update", verifyToken, partialUpdateUser);
 router.delete("/delete", verifyToken, deleteUser);
