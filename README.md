@@ -18,6 +18,32 @@
 
 3. All API endpoints are tested and documented using **Postman**, with proper request and response examples. The project also includes **basic validation and error handling** to ensure reliable API behavior.
 
+## API Endpoints (Deployed Links)
+
+- **Register for New User** https://a-a-app.onrender.com/api/auth/register  
+![Register Screenshot](./after_deploy_ss/1.Register%20New-user.png)
+
+- **Login for Existing user** https://a-a-app.onrender.com/api/auth/login  
+![Login Screenshot](./after_deploy_ss/2.Login%20Existing-User.png)
+
+- **Get Me/current user using Token:** https://a-a-app.onrender.com/api/auth/me 
+![Single Screenshot](./after_deploy_ss/3.Me%20user%20using%20Token%20from%20Login.png)
+
+- **Get All Users using Token:** https://a-a-app.onrender.com/api/auth/users 
+![All user Screenshot](./after_deploy_ss/4.All%20Users%20Using%20Token%20from%20Login.png)
+
+- **Fully Update User (PUT):** https://a-a-app.onrender.com/api/auth/update  
+![Full Update Screenshot](./after_deploy_ss/5.Fully-updating%20User%20using%20Toke%20from%20Login.png)
+
+- **Partial Update User (PATCH):** https://a-a-app.onrender.com/api/auth/update  
+![Partially Update Screenshot](./after_deploy_ss/6.Partial%20updating%20User%20using%20Token%20from%20Login.png)
+
+- **Delete User:** https://a-a-app.onrender.com/api/auth/delete  
+![Delete user Screenshot](./after_deploy_ss/7.Deleting%20user%20using%20Token%20from%20Login.png)
+
+- **Reset Password using mail & newPassword:** https://a-a-app.onrender.com/api/auth/reset-password  
+![Reset password Screenshot](./after_deploy_ss/8.Reset%20password%20using%20MAIL%20&%20NewPassowrd.png)
+
 ## **Postman Documentation (Published Link)**
 
 **Published Postman docs URL :** https://documenter.getpostman.com/view/51980519/2sBXc7MQvL
