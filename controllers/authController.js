@@ -50,8 +50,12 @@ export const loginUser = async (req, res) => {
 
 // CURRENT USER - GET
 export const getMe = (req, res) => {
-  res.json({ user: req.user });
+  res.json({
+    message: "Authenticated user",
+    userId: req.user.id
+  });
 };
+
 
 // ALL USERS - GET
 export const getAllUsers = async (req, res) => {
